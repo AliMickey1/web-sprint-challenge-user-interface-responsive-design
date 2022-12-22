@@ -106,6 +106,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-content: center;
+
 }
 
  .social {
@@ -126,6 +127,7 @@ nav {
     width: 100%;
     height: 20vh;
     background-color: rgb(0, 4, 17);
+    border: 10px blue dotted;
 }
 .spacer-sm {
     width: 100%;
@@ -139,15 +141,15 @@ nav {
     height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
-    display: flex;
-    justify-content: space-around;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
 }
 
-img {
-    margin: 2%;
+.gallery h2 {
+    padding-top: 1%;
+    font-size: 3em;
+}
+
+.gallery img {
+    padding: 1.18%;
 }
 
 /* about us section */
@@ -172,7 +174,17 @@ img {
 
 .about h2 {
     width: 100%;
+    font-size: 3em;
 }
+
+.about h3 {
+    font-size: 3em;
+}
+
+.about p {
+    font-size: 1.5em;
+}
+
 
 .about-container .text {
     width: 50%;
@@ -198,12 +210,17 @@ img {
     padding-top: 5vh;
 }
 
+.contact h2, h3 {
+    font-size: 3em;
+}
+
 .contact h3 {
     padding-top: 2.5vh;
 }
 
 .contact p {
     padding: .5vh 0;
+    font-size: 2em;
 }
 
 .info {
@@ -231,6 +248,10 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    background: rgb(0, 4, 17);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .footer-all {
@@ -260,14 +281,6 @@ footer {
 .right {
     width: 70%;
 }
-
-
-
-
-
-
-
-
 
 
 /* mobile media query */
