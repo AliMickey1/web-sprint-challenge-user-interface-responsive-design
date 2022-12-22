@@ -147,7 +147,7 @@ nav {
 }
 
 img {
-    margin: 3%;
+    margin: 2%;
 }
 
 /* about us section */
@@ -231,22 +231,36 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
-    background-color: rgb(0, 4, 17);
-
 }
 
-
-.right, left {
-    width: 50%;
-    display: flex;
-    align-content: center;
-    justify-content: center;;
+.footer-all {
+    background: rgb(0, 4, 17);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 .copyright {
-    font-size: 2.5vh;
-    align-items: baseline;
+    font-size: 2vh;
     text-align: right;
 }
+
+.footer-main {
+   display: flex;
+   align-items: center;
+
+}
+
+
+.left {
+    width: 30%;
+}
+
+
+.right {
+    width: 70%;
+}
+
 
 
 
