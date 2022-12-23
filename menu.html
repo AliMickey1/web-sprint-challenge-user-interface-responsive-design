@@ -9,32 +9,51 @@
 
     <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
     <script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/menu.css">
 </head>
 
 <body>
     <div>
         <!-- header -->
-        <header>
-            BLOOMTECH BAR AND GRILL
-
-            <!-- nav -->
-            Menu
-            Reservations
-            Special Offers
-            Contact
-        </header>
+        <<header>
+			<div class="trans-head">
+				<a href="index.html"><h1>BLOOMTECH BAR AND GRILL<h1></a>
+				
+				<!-- nav -->
+				<nav>
+					<a href="menu.html">Menu</a>
+					<a href="#">Reservations</a>
+					<a href="#">Special Offers</a>
+					<a href="#">Contact</a>
+				</nav>
+				<div class="social">
+					<div class="facebook">
+					<a href="#" class="fa-brands fa-square-facebook"></a>
+					</div>
+					<div class="twitter">
+					<a href="#" class="fa-brands fa-square-twitter"></a>
+					</div>
+					<div class="instagram">
+					<a href="#" class="fa-brands fa-square-instagram"></a>
+					</div>
+				</div>
+			</div> 
+			</div>
+		</header>
 
         <!-- spacer -->
         <div class="spacer"></div>
 
         <!-- menu -->
         <article class="menu">
-            Food & Drink
-
-                Drinks
-                    Soda
-                    $2
-                    Coke products
+            <div class="menu-container">
+            <h4>Food & Drink</h4>
+<!--Container Section-->
+            <section class="menu-section">
+                <h4>Drinks</h4>
+                    <h4>Soda</h4>
+                    <h4>$2</h4>
+                    <p>Coke products</p>
 
                     Coffee
                     $2
@@ -51,7 +70,7 @@
                     Cocktail
                     $10
                     Ask about our specials
-
+                </section>
                 Appetizers
                     Fried Pickles
                     $6
@@ -111,6 +130,7 @@
                     $8
                     Crispy scorched top containing a perfect, smooth custard
                     (GF)
+            </div>
         </article>
 
         <!-- spacer -->
@@ -118,16 +138,45 @@
 
         <!-- footer -->
         <footer>
-            <!-- email signup -->
-            Join our mailing list!
-            Sign Up
-            <!-- nav -->
-            Menu
-            Reservations
-            Special Offers
-            Contact
-            <!-- copyright -->
-            ©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
+			<div class="footer-all">
+			<!-- email signup -->
+
+			<div class="footer-main">
+
+			<div class="left">
+				<p>Join our mailing list!</p>
+			<div class="input">
+			<form class="signup">
+				<input class="email" type="text" placeholder="Email Address">
+				<button type="submit">Sign Up</button>
+			</form>
+			</div>
+			</div>
+			<!-- nav -->
+				<div class="right">
+					<nav>
+						<div class="menu">
+							<a href="menu.html">Menu</a>
+						</div>
+						<div class="reservation">
+							<a href="#">Reservations</a>
+						</div>
+						<div class="offers">
+							<a href="#">Special Offers</a>
+						</div>
+						<div class="contact-nav">
+							<a href="#">Contact</a>
+						</div>
+					</nav>
+				</div>
+			
+			</div> <!--end footer-main-->
+			<!-- copyright -->
+			<div class="copy">
+			<p class="copyright">©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</p>
+			</div>
+		</div>
+		</footer>mTech Restaurant Group, Inc. All Rights Reserved.
         </footer>
     </div>
 </body>
