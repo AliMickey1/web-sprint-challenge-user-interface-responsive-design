@@ -185,6 +185,7 @@ nav {
 .menu-item h4 {
     width: 50%;
     font-size: 3vh;
+    padding-top: 3%;
 }
 
 .price {
@@ -195,10 +196,17 @@ nav {
 
 .menu-item p {
     align-self: flex-end;
+    width: 60%;
     font-size: 2vh;
 }
 
-
+.v {
+    width: auto;
+    color: rgb(225, 239, 230);
+    background-color: rgb(0, 4, 17);
+    background-color: rgb(0, 4, 17, 0.8);
+    background-size: cover;
+}
 
 
 /* footer section */
@@ -264,44 +272,147 @@ a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
-    .header-title {
-        width: 75%;
+    .trans-head h1 {
+        width: 48%;
         margin: 0 auto;
         text-align: center;
-        font-size: 4rem;
+        font-size: 2rem;
     }
 
+    header {
+        width: 50%;
+        height: 20vh;
+        background-image: url('../img/menu-header.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
+        font-size: 3em;
+    }
+
+    nav {
+        font-size: 2em;;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .fa {
+        width: 1em;
+      }
+      
     /* menu */
+
+    .menu h2 {
+        color: black;
+        text-align: center;
+        font-size: 2em;
+        text-decoration: underline;
+    }
+
     .menu {
+        color: black;
         background-image: none;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        /* border: 3px purple dashed; */
+       
+    }
+    .menu-section, .menu-item {
+        color: black;
+        text-align: center;
+
+
+    }
+    .menu-section h3 {
+        /* border: 1px black solid; */
+        font-size: 3em;
+        
+  }
+
+    .menu-section {
+        /* border: 2px red dotted; */
+        width: 100%;
+    }
+
+    .menu-item h4 {
+        /* border: 2px blue dotted; */
+        width: 100%;
+        font-size: 2em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-item {
+        /* border: 2px green dotted; */
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        border-bottom: 2px black solid;
+    }
+
+    .menu-item p {
+        /* border: 2px yellow dotted; */
+        font-size: 1em;
+        width: 100%;
+    }
+
+    .v {
+        width: auto;
+        color: rgb(0, 4, 17);
+        background-color: rgb(225, 239, 230);
+        /* border: 1px rgb(0, 4, 17) dotted; */
     }
 
     /* footer section */
     footer {
+        width: 45%;
         height: auto;
         padding-top: 2.5vh;
-        font-size: 2rem;
+        text-align: center;
+    }
+
+    .footer-parent 
+    {
+        /* border: 2px blue dotted; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-parent .left p{
+        /* border: 2px green dotted; */
+        color: white;
+        font-size: small;
+    }
+
+    .left {
+        width: 100%;
+        /* border: 2px yellow dotted; */
+        font-size: 1em;
+    }
+
+    .right {
+        /* border: 2px red dotted; */
+        width: 100%;
+        font-size: small;
+        align-items: center;
+    }
+    a {
+        color: white;
+        font-size: small;
+
+    }
+
+    .copyright {
+        font-size: 0.5vh;
+        text-align: center;
+        color: white;
     }
 }
